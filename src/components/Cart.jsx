@@ -26,7 +26,7 @@ const Cart = () => {
        const sumWithInitial = total.reduce(
      (previousValue, currentValue) => previousValue + currentValue,
         initialValue)
-  return sumWithInitial
+  return Number(sumWithInitial).toFixed(2)
     }
 
 
@@ -61,7 +61,7 @@ const Cart = () => {
 
                                         </div>
                                         <div className="price">
-                                            <h3>{curItem.price*curItem.qty} $</h3>
+                                            <h3>{Number(curItem.price*curItem.qty).toFixed(2)} $</h3>
                                         </div>
                                         <div className="remove-item">
                                             <i
