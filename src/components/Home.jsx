@@ -275,6 +275,9 @@ const Home = () => {
                     <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_19.jpg'/>
 
                 </div>
+                <div className='w-100 text-center mt-5'>
+                    <img src='	https://cdn.fcglcdn.com/brainbees/images/intellitots-franchise-1dec22.webp' alt=''/>
+                </div>
 
             </div>
         </>

@@ -93,6 +93,7 @@ const Signup = () => {
                                     message: 'Please input your email!',
                                 },
                                 {
+                                    /* eslint-disable-next-line */
                                     pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
                                     message: 'Wrong format!',
                                 }
