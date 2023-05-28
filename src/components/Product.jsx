@@ -7,7 +7,6 @@ import { ProductData } from './data'
 
 
 const Product = () => {
-  const [cart, setCart] = useState(ProductData)
 
   const mycart = useSelector((state) => state.cartReducer.cart);
 
@@ -31,7 +30,7 @@ const Product = () => {
   return (
     <div >
       <Navbar />
-      {cart.map((val, index) => {
+      {ProductData.map((val, index) => {
         return (
           <div className="cards" key={index}>
             <div className="card">
