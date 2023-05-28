@@ -3,7 +3,7 @@ import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './components/Product';
 import Cart from './components/Cart';
-import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Signup from './components/Signup';
 import Login from './components/Login';
 
@@ -12,14 +12,12 @@ function PrivateRoute({ children }) {
 
   
   if (currentuser) {
-      // not logged in so redirect to login page with the return url
       return children;
     }else{
     return <Navigate to="/login" />
 
   }
 
-  // authorized so return child components
 }
 function App() {
   return (

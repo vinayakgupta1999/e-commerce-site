@@ -3,7 +3,6 @@ import './cart.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { increment,decrement,removeFromCart } from '../redux/cartSlice'
 import Navbar from './navbar/Navbar'
-import { Button } from 'antd'
 
 const Cart = () => {
     const mycart=useSelector((state) => state.cartReducer.cart);
