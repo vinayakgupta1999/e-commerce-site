@@ -6,13 +6,13 @@ import Navbar from './navbar/Navbar'
 const Home = () => {
     return (
         <>
-        <Navbar/>
+            <Navbar />
             <CrousalView />
             <PremiumButique />
             <div>
                 <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_190523_01.jpg' preview={false} />
-                <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_02.jpg' preview={false}/>
-                <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_03.jpg' preview={false}/>
+                <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_02.jpg' preview={false} />
+                <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_03.jpg' preview={false} />
                 <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_04...0123.jpg' preview={false} />
                 <Image alt='' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_summer2_090423_05.jpg' preview={false} />
             </div>
@@ -203,80 +203,107 @@ const Home = () => {
                 </div>
                 <div className='w-100'>
                     <img alt='' className='w-100' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_41.jpg' />
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_42.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_43.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_44.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_45.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_46.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_47.jpg'/>
-                    <img alt='' style={{width:'calc(100%/7)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_48.jpg'/>
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_42.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_43.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_44.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_45.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_46.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_47.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/7)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_48.jpg' />
 
                 </div>
                 <div className='w-100'>
                     <img alt='' className='w-100' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_49.jpg' />
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_50.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_51.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_52.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_53.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_54.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_55.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_56.jpg'/>
-                    <img alt='' style={{width:'calc(100%/8)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_57.jpg'/>
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_50.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_51.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_52.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_53.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_54.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_55.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_56.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/8)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_57.jpg' />
                 </div>
                 <div className='w-100'>
-                    <img alt='' style={{width:'100%'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_18.jpg'/>
+                    <img alt='' style={{ width: '100%' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_18.jpg' />
                 </div>
                 <div className='w-100' >
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_19.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_20.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_21.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_22.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_23.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_24.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_25.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_26.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_27.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_28.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_29.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_30.jpg'/>
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_19.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_20.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_21.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_22.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_23.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_24.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_25.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_26.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_27.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_28.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_29.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_gear_&_activity_210323_30.jpg' />
                 </div>
                 <div className='w-100'>
-                    <img alt='' style={{width:'100%'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_96.jpg'/>
+                    <img alt='' style={{ width: '100%' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_96.jpg' />
                 </div>
                 <div className='w-100' >
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_97.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_98.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_99.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_100.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_101.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_102.jpg'/>
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_97.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_98.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_99.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_100.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_101.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_102.jpg' />
                 </div>
                 <div className='w-100' >
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_01.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_02.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_03.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_04.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_05.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_06.jpg'/>
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_01.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_02.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_03.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_04.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_05.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_06.jpg' />
                 </div>
                 <div className='w-100'>
-                    <img alt='' className='w-100' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_07.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_08.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_09.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_10.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_11.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_12.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_13.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_14.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_15.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_16.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_17.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_182.jpg'/>
-                    <img alt='' style={{width:'calc(100%/6)'}} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_19.jpg'/>
+                    <img alt='' className='w-100' src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_07.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_08.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_09.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_10.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_11.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_12.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_13.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_14.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_15.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_16.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_17.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_182.jpg' />
+                    <img alt='' style={{ width: 'calc(100%/6)' }} src='https://cdn.fcglcdn.com/brainbees/images/cattemplate/summer_desktop_health_&_safty_210323_19.jpg' />
 
                 </div>
                 <div className='w-100 text-center mt-5'>
-                    <img src='	https://cdn.fcglcdn.com/brainbees/images/intellitots-franchise-1dec22.webp' alt=''/>
+                    <img src='	https://cdn.fcglcdn.com/brainbees/images/intellitots-franchise-1dec22.webp' alt='' />
+                </div>
+                <div>
+                    <div class="_home_mque mt-4" style={{ display: 'block', width: '1234px' }}>
+                        <div class="top_brnd sprite-top"></div>
+                        <div id="s1" class="is" style={{ overflow: 'hidden', width: '100%', height: '60px', position: 'relative', left: '0px', top: '0px' }} >
+                            <section class="marquees-wrapper">
+
+                                <div class="marquee marquee-2">
+                                    <ul class="marquee__content scroll">
+                                        <div id="s11" style={{ position: 'absolute' }}>
+                                            <nobr>
+                                                <img border="0" alt="brandstrip1208-2" id="hbrnd" usemap="#Map" style={{ display: 'inline', verticalAlign: 'top' }} title="Brands" src="https://cdn.fcglcdn.com/brainbees/banners/brandstrip1208-3-new-19-08-19.jpg" />
+                                            </nobr>
+                                        </div>
+                                    </ul>
+                                    <ul class="marquee__content scroll" aria-hidden="true">
+                                        <div id="s12" style={{ position: 'absolute' }}>
+                                            <nobr>
+                                                <img border="0" alt="brandstrip1208-2" id="hbrnd" usemap="#Map" style={{ display: 'inline', verticalAlign: 'top' }} title="Brands" src="//cdn.fcglcdn.com/brainbees/banners/brandstrip1208-3-new-19-08-19.jpg" />
+                                            </nobr>
+                                        </div>
+                                    </ul>
+                                </div>
+
+                            </section>
+                        </div>
+                    </div>
                 </div>
 
             </div>

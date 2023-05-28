@@ -9,12 +9,84 @@
   pointer-events: none;
 }
 
-.brand-logo{
+.brand-logo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
 }
+
+._home_mque {
+  height: 101px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+._home_mque .top_brnd {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  overflow: hidden;
+  width: 90px;
+  height: 60px;
+  z-index: 2;
+  background-position: -515px -156px;
+}
+
+.sprite-top {
+  background-image: url('https://cdn.fcglcdn.com/brainbees/images/n/sprite-top4.png');
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+.marquees-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+.marquees-wrapper::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+
+}
+
+.marquee {
+  --gap: 1rem;
+  margin-block: 10px;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  height: 100%;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+}
+.scroll {
+  animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,7 +108,8 @@
 .App-link {
   color: #61dafb;
 }
-.card-item .ant-card-body{
+
+.card-item .ant-card-body {
   padding: 0;
   width: 100%\;
 }
@@ -45,6 +118,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
