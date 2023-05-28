@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './product.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, removeFromCart } from '../redux/cartSlice'
 import Navbar from './navbar/Navbar'
-import axios from 'axios'
 import { ProductData } from './data'
 
 

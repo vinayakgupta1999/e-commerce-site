@@ -12,7 +12,7 @@ const Signup = () => {
         const alluser = JSON.parse(data)
         console.log(alluser)
         if (alluser?.length) {
-            const checkuser = alluser.filter((val) => val.emailAddress == values.emailAddress)
+            const checkuser = alluser.filter((val) => val.emailAddress === values.emailAddress)
             if (checkuser.length) {
                 message.error("email already exist")
             } else {

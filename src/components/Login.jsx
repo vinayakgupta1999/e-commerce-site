@@ -12,9 +12,9 @@ const Login = () => {
         const data = localStorage.getItem("users")
         const alluser = JSON.parse(data)
         if (alluser?.length) {
-            const checkuser = alluser.filter((val) => val.emailAddress == values.emailAddress)
+            const checkuser = alluser.filter((val) => val.emailAddress === values.emailAddress)
             if(checkuser.length){
-                if(checkuser[0].password==values.password){
+                if(checkuser[0].password===values.password){
                     localStorage.setItem('currentuser',JSON.stringify(checkuser.emailAddress))
                     navigate('/home')
                 }else{
